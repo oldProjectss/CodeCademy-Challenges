@@ -1,0 +1,89 @@
+div {
+    padding: 10px;
+    margin: 9px;
+    border: 2px solid black;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+/* color section */
+
+.color-section article {
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    padding: 20px 40px;
+    margin-bottom: 10px;
+}
+
+.color-section :nth-child(2) {
+    background-color: #2d5dcc;
+}
+
+.color-section :nth-child(3) {
+    background-color: #d957d9;
+}
+
+.color-section :nth-child(4) {
+    background-color: #4fe0b0;
+}
+
+.color-section :nth-child(5) {
+    background-color: #efd9ca;
+}
+
+
+/* fontd section */
+
+.font-section {}
+
+.sourceCodePro {
+    font-family: "source code pro";
+    line-height: 0.7em;
+}
+
+.sourceCodePro :nth-child(4) {
+    font-weight: bold;
+}
+
+.sourceCodePro :nth-child(5) {
+    font-style: italic;
+}
+
+.NunitoSans {
+    font-family: "nunito sans";
+    line-height: 0.7em;
+}
+
+.NunitoSans :nth-child(4) {
+    font-weight: bold;
+}
+
+.NunitoSans :nth-child(5) {
+    font-style: italic;
+}
+
+.Poppins {
+    font-family: poppins;
+    line-height: 0.7em;
+}
+
+.Poppins :nth-child(4) {
+    font-weight: bold;
+}
+
+.Poppins :nth-child(5) {
+    font-style: italic;
+}
+
+
+/* Text style section */
+
+.text-section {
+    line-height: 1.5em;
+}

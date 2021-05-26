@@ -1,0 +1,99 @@
+/* Fonts import */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap");
+
+/* Page styles */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #333333;
+  font-family: "Space Mono", monospace;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  grid-gap: 10px;
+  height: 100vh;
+  width: 100vw;
+}
+.al {
+  font-family: inconsolata, monospace;
+  grid-column: 2 / 5;
+  grid-row: 2 / span 1;
+  text-transform: uppercase;
+  padding-bottom: 40px;
+}
+.main-img {
+  /* max-width: 50%; */
+  max-width: 60vw;
+  grid-column: 2 / 11;
+  grid-row: 3 / span 1;
+  padding-bottom: 20px;
+}
+.main-heading {
+  font-weight: 700;
+  font-size: 48px;
+  color: #333;
+  grid-column: 2 / 11;
+  grid-row: 5 / span 1;
+}
+.main-paragraphe {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  grid-column: 2 / 10;
+  grid-row: 6 / span 1;
+  padding-bottom: 40px;
+}
+.btn {
+  background-color: #4f4f4f;
+  padding: 10px;
+  color: #fff;
+  grid-column: 2 / 6;
+  border-radius: 10px;
+  grid-row: 8 / span 1;
+  text-transform: uppercase;
+  margin-bottom: 100px;
+}
+.footer-paragraphe {
+  font-family: Montserrat;
+  grid-column: 2 / 12;
+  grid-row: 12 / 13;
+  color: #bdbdbd;
+  text-align: center;
+}
+
+@media screen and (min-width: 1020px) {
+  .al {
+    grid-column: 2 / 5;
+    grid-row: 2 / span 1;
+  }
+  .main-img {
+    width: 40vw;
+    grid-column: 2 / 3;
+    grid-row: 4 / 10;
+  }
+  .main-heading {
+    grid-column: 6 / 12;
+    grid-row: 4 / span 1;
+  }
+  .main-paragraphe {
+    grid-column: 6 / 10;
+    grid-row: 5 / span 1;
+  }
+  .btn {
+    grid-column: 6 / span 3;
+    grid-row: 8 / span 1;
+  }
+  .footer-paragraphe {
+    grid-column: 2 / 12;
+    grid-row: 12 / span 1;
+  }
+}
