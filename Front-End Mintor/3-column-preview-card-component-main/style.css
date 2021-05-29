@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container,
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "lexend deca";
+  font-weight: 400;
+  font-size: 15px;
+  margin: 50px auto;
+  width: 95%;
+}
+
+.content {
+  color: hsla(0, 0%, 100%, 0.75);
+  padding: 20px 0px 90px 0px;
+  line-height: 2em;
+}
+.box-btn,
+.heading {
+  color: hsl(0, 0%, 95%);
+  padding: 20px 0;
+  font-family: "big shoulders display";
+  font-weight: 700;
+}
+
+.box-btn {
+  border-radius: 30px;
+  padding: 10px 20px;
+  outline: none;
+  border: transparent solid 2px;
+  font-family: "lexend";
+}
+.box-btn:hover {
+  background-color: hsl(30, 6%, 79%);
+  border: 2px #fff solid;
+  cursor: pointer;
+}
+.btnOne {
+  color: hsl(31, 77%, 52%);
+}
+.btnOne:active {
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+  border: 2px #fff solid;
+}
+.btnTwo {
+  color: hsl(184, 100%, 22%);
+}
+.btnTwo:active {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+  border: 2px #fff solid;
+}
+.btnThree {
+  color: hsl(179, 100%, 13%);
+}
+.btnThree:active {
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+  border: 2px #fff solid;
+}
+.box {
+  padding: 60px 60px 30px 60px;
+  width: 70%;
+}
+
+.first-box {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: hsl(31, 77%, 52%);
+}
+.secound-box {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.third-box {
+  background-color: hsl(179, 100%, 13%);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+@media screen and (min-width: 1340px) {
+  .container {
+    flex-direction: row;
+  }
+  .first-box {
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 0;
+  }
+  .third-box {
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 0;
+  }
+  .container {
+    width: 80%;
+  }
+}
