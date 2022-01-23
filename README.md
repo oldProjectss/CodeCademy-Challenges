@@ -1,29 +1,8 @@
-# Coding and Front-End Challenges
+# CodeCademy-Projects
 
-### Built with
+## Welcome to this repo, Here you can find all my solutions to the Codecademy Challenges.
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+<img src= 'https://images.codecademy.com/social/logo-codecademy-social.png'>
 
-### Links
+### <a href="https://github.com/Ismailco/CodeCademy-Projects/blob/main/Credit%20Card%20Checker.js">1 - Credit Card Checker</a>
 
--  [Codecademy Chalanges:](https://your-solution-url.com)
--  [Front-End Mentor Chalanges:](https://your-solution-url.com)
--  [DevChallenges Chalanges:](https://your-solution-url.com)
--  [My Portfolio:](https://ismailcourr.ml)
-
-## Author
-
--  [My Website](https://www.ismailcourr.ml)
--  [Twitter](https://www.twitter.com/ismailcourr)
--  [Github](https://github.com/Ismailco)
--  [Linkedin](https://www.linkedin.com/in/ismailcourr/)
--  [Frontend Mentor](https://www.frontendmentor.io/profile/yourusername)
--  [DevChallenges](https://devchallenges.io/portfolio/Ismailco)
--  [Codecademy](https://www.codecademy.com/profiles/Digitalcitizen96)
