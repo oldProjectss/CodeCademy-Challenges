@@ -1,17 +1,18 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html>
   <head>
     <title>Number Guesser</title>
-    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" href="../fav.png" type="image/x-icon" />
   </head>
   <body>
     <div class="game-container">
       <header>
         <h1>Number Guesser!</h1>
       </header>
-      
+
       <div class="rounds">
         <p class="round-label">Round <span id="round-number">1</span></p>
         <p class="guess-label">Target Number: <span id="target-number">?</span></p>
@@ -31,7 +32,7 @@
             <p class="guess-label">You</p>
             <p class="score-label">Score: <span id="human-score">0</span></p>
           </div>
-          <input type="number" id="human-guess" min=0 max=9 value=0>
+          <input type="number" id="human-guess" min="0" max="9" value="0" />
           <div class="number-controls">
             <button class="number-control left" id="subtract" disabled>-</button>
             <button class="number-control right" id="add">+</button>
@@ -43,9 +44,8 @@
       <div class="next-round-container">
         <button class="button" id="next-round" disabled>Next Round</button>
       </div>
-
     </div>
-    
+
     <div class="instructions">
       <div class="instruction">
         <h3>Step 1</h3>
