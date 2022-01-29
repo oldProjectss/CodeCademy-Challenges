@@ -6,6 +6,8 @@
 
 ## Built With
 
+- HTML
+- CSS
 - JavaScript
 
 ## Getting Started
